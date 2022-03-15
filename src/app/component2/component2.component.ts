@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from '../app.component';
+import { DecoyComponent } from '../decoy/decoy.component';
+import { DierenprofielComponent } from '../dierenprofiel/dierenprofiel.component';
 
 @Component({
   selector: 'app-component2',
@@ -11,5 +14,9 @@ export class Component2Component implements OnInit {
 
   ngOnInit() {
   }
+  view(){
+    AppComponent = DierenprofielComponent
+  }
 
 }
+
